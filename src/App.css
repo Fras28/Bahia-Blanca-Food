@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -15,13 +16,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  border: solid 2px red;
+  display: flex;
+  border-radius: 20px;
+  border-radius: 5%;
 }
 
 .App-link {
@@ -36,3 +39,84 @@
     transform: rotate(360deg);
   }
 }
+
+.navi{
+  background-color: bisque;
+  outline: 2px solid #a12d2d;
+}
+.buttons{
+  width: 40%;
+  height: 100px;
+  border-radius: 6px;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+.bastardo{
+  border: solid orangered 3px;
+  background-image: url("https://cdn.create.vista.com/api/media/small/382777506/stock-photo-oriental-outline-ornament-seamless-pattern");
+}
+.casamonte{
+  background-image: url("./assets/casaMonte.jpg");
+  background-size: cover;
+border: solid 3px #18A59D;
+
+}
+.next{
+  background-color: #a12d2d;
+  border: solid 3px #e7d000;
+}
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.rowsCard{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+/*========================== footer ======================*/
+.Mfooty{
+
+  display: flex;
+  margin-top: 0;
+  background-color: bisque;
+  outline: 2px solid #a12d2d;
+  margin-top: 1.5rem;
+ min-height: 40px;
+
+  } 
+  
+  .redes{
+      fill:#18A59D;
+  }
+  .Mcontact{
+      font-family: 'Bebas Neue', cursive;
+      font-family: 'Sono', sans-serif;
+      font-size: .7rem;
+      margin-bottom: 0;
+      margin-top: .5rem;
+      color: black;
+   
+  }
+  .McontactT{
+      font-family: 'Bebas Neue', cursive;
+      font-family: 'Sono', sans-serif;
+      font-size: .7rem;
+      margin-bottom: 0;
+      margin-top: .5rem;
+      margin-right: .5rem;
+ 
+  }
+  .linkC:hover .redes{
+      fill:#fbae61;
+  }
+  
+  .myLinkss{
+      display: flex;
+      margin: auto;
+
+  }
+ 
