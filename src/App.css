@@ -21,10 +21,10 @@
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: solid 2px red;
+  border: solid 2px #a12d2d;
   display: flex;
   border-radius: 20px;
-  border-radius: 5%;
+  border-radius: 6px;
 }
 
 .App-link {
