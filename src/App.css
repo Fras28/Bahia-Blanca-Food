@@ -24,7 +24,8 @@ background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
-  border: solid 2px #a12d2d;
+  border-top: solid 2px #a12d2d;
+  border-bottom: solid 2px #a12d2d;
   display: flex;
   border-radius: 20px;
   border-radius: 6px;
