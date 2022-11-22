@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <div className="navi">
-        <h1> Bahia Blanca Food</h1>
+        <h1> Food Bahia Blanca</h1>
       </div>
       <header className="App-header">
         <div className="rowsCard">

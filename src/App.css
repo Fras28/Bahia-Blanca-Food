@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya&display=swap');
+
+
 .App {
   text-align: center;
 
@@ -15,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
   min-height: 75vh;
   display: flex;
   flex-direction: column;
@@ -41,8 +44,11 @@
 }
 
 .navi{
-  background-color: bisque;
+  background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
   outline: 2px solid #a12d2d;
+  color: white;
+  font-family: 'Noto Serif Oriya', serif;
+  padding-top: .5rem;
 }
 .buttons{
   width: 100%;
@@ -88,7 +94,7 @@ border: solid 3px #18A59D;
 
   display: flex;
   margin-top: 0;
-  background-color: bisque;
+  background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
   outline: 2px solid #a12d2d;
   margin-top: 1.5rem;
   min-height: 40px;
@@ -104,7 +110,7 @@ border: solid 3px #18A59D;
       font-size: .7rem;
       margin-bottom: 0;
       margin-top: .5rem;
-      color: black;
+      color: white;
    
   }
   .McontactT{
@@ -123,8 +129,10 @@ border: solid 3px #18A59D;
   .myLinkss{
       display: flex;
       margin: auto;
+      color: white;
 
   }
 .Mlinks{
   padding-bottom: 0;
+  
 }
