@@ -45,11 +45,14 @@
   outline: 2px solid #a12d2d;
 }
 .buttons{
-  width: 40%;
+  width: 100%;
   height: 100px;
   border-radius: 6px;
-  margin-top: 1rem;
+  color: white;
   overflow: hidden;
+  font-size: 1.3rem;
+  font-weight: 500;
+  
 }
 .bastardo{
   border: solid orangered 3px;
@@ -66,9 +69,12 @@ border: solid 3px #18A59D;
   border: solid 3px #e7d000;
 }
 a{
-  color: white;
+  margin-top: 1rem;
+  width: 45%;
+  height: 100px;
   text-decoration: none;
   font-size: 1.3rem;
+  
 }
 .rowsCard{
   display: flex;
@@ -119,4 +125,6 @@ a{
       margin: auto;
 
   }
+  .myLinkss{
  
+  }

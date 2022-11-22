@@ -9,14 +9,18 @@ function App() {
       </div>
       <header className="App-header">
         <div className="rowsCard">
+           <a href="https://bastardo.vercel.app/">
           <button className="buttons bastardo">
-            <a href="https://bastardo.vercel.app/">BASTARDO</a>
+           BASTARDO
           </button>
+          </a>
+           <a href="https://casamonte.vercel.app/">
           <button className="buttons casamonte">
-            <a href="https://casamonte.vercel.app/">CASAMONTE</a>
+           CASAMONTE
           </button>
+          </a>
+            <a href="">
           <button className="buttons next">
-            <a href="">
               <svg
                 width="40"
                 height="40"
@@ -37,10 +41,11 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
           </button>
+            </a>
+              <a href="">
           <button className="buttons  next">
-            <a href="">
+          
               <svg
                 width="40"
                 height="40"
@@ -61,10 +66,12 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
+           
           </button>
+           </a>
+            <a href="">
           <button className="buttons next">
-            <a href="">
+           
               <svg
                 width="40"
                 height="40"
@@ -85,10 +92,12 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
+            
           </button>
+          </a>
+          <a href="">
           <button className="buttons  next">
-            <a href="">
+            
               <svg
                 width="40"
                 height="40"
@@ -109,10 +118,12 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
+           
           </button>
+           </a>
+           <a href="">
           <button className="buttons  next">
-            <a href="">
+            
               <svg
                 width="40"
                 height="40"
@@ -133,10 +144,12 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
+           
           </button>
+           </a>
+           <a href="">
           <button className="buttons  next">
-            <a href="">
+            
               <svg
                 width="40"
                 height="40"
@@ -157,8 +170,11 @@ function App() {
                   fill="#E7D000"
                 />
               </svg>
-            </a>
+           
           </button>
+           </a>
+           
+         
         </div>
       </header>
       <footer className="Mfooty">
