@@ -9,17 +9,17 @@ function App() {
       </div>
       <header className="App-header">
         <div className="rowsCard">
-           <a href="https://bastardo.vercel.app/">
+           <a  className="local" href="https://bastardo.vercel.app/">
           <button className="buttons bastardo">
            BASTARDO
           </button>
           </a>
-           <a href="https://casamonte.vercel.app/">
+           <a className="local" href="https://casamonte.vercel.app/">
           <button className="buttons casamonte">
            CASAMONTE
           </button>
           </a>
-            <a href="">
+            <a className="local" href="">
           <button className="buttons next">
               <svg
                 width="40"
@@ -43,7 +43,7 @@ function App() {
               </svg>
           </button>
             </a>
-              <a href="">
+              <a  className="local" href="">
           <button className="buttons  next">
           
               <svg
@@ -69,7 +69,7 @@ function App() {
            
           </button>
            </a>
-            <a href="">
+            <a className="local" href="">
           <button className="buttons next">
            
               <svg
@@ -95,7 +95,7 @@ function App() {
             
           </button>
           </a>
-          <a href="">
+          <a  className="local" href="">
           <button className="buttons  next">
             
               <svg
@@ -121,7 +121,7 @@ function App() {
            
           </button>
            </a>
-           <a href="">
+           <a className="local" href="">
           <button className="buttons  next">
             
               <svg
@@ -147,7 +147,7 @@ function App() {
            
           </button>
            </a>
-           <a href="">
+           <a className="local" href="">
           <button className="buttons  next">
             
               <svg

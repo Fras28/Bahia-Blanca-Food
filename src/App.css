@@ -68,7 +68,7 @@ border: solid 3px #18A59D;
   background-color: #a12d2d;
   border: solid 3px #e7d000;
 }
-a{
+.local{
   margin-top: 1rem;
   width: 45%;
   height: 100px;
@@ -91,7 +91,7 @@ a{
   background-color: bisque;
   outline: 2px solid #a12d2d;
   margin-top: 1.5rem;
- min-height: 40px;
+  min-height: 40px;
 
   } 
   
@@ -125,6 +125,6 @@ a{
       margin: auto;
 
   }
-  .myLinkss{
- 
-  }
+.Mlinks{
+  padding-bottom: 0;
+}
