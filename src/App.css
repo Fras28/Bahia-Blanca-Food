@@ -69,7 +69,9 @@ background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997
   background-image: url("./assets/casaMonte.jpg");
   background-size: cover;
 border: solid 3px #18A59D;
-
+}
+.morton{
+ background-image: url("https://besthqwallpapers.com/Uploads/2-3-2020/123418/thumb2-white-wooden-planks-macro-white-wooden-texture-wood-planks-wooden-backgrounds.jpg");
 }
 .next{
   background-color: #a12d2d;
