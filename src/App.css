@@ -18,7 +18,7 @@
 }
 
 .App-header {
-background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
+  background-color: rgba(0, 0, 0, 0.473);
   min-height: 75vh;
   display: flex;
   flex-direction: column;
@@ -45,7 +45,7 @@ background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997
 }
 
 .navi{
-  background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
+background-color: rgba(0, 0, 0, 0.473);
   outline: 2px solid #a12d2d;
   color: white;
   font-family: 'Noto Serif Oriya', serif;
@@ -61,15 +61,35 @@ background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997
   font-weight: 500;
   
 }
-.bastardo{
+.shanti{
   border: solid orangered 3px;
-  background-image: url("https://cdn.create.vista.com/api/media/small/382777506/stock-photo-oriental-outline-ornament-seamless-pattern");
-}
-.casamonte{
-  background-image: url("./assets/casaMonte.jpg");
+  background-image: url("./assets/interiorEditado.jpg");
   background-size: cover;
-border: solid 3px #18A59D;
+  color: black;
+  font-size: 2rem;
 }
+.shanti>svg{
+  background-color: rgba(255, 255, 255, 0.842);
+}
+.roxy{
+  background-image: url("https://media.99images.com/photos/wallpapers/creative-graphics/black-wood%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ih0ou.jpg");
+  background-size: cover;
+border: solid 3px #000000;
+font-size: 2rem;
+font-weight: 600;
+}
+
+.guardalavaca{
+  background-image: url("https://www.lugaresparavisitar.com.ar/wp-content/uploads/2018/03/Monte-Hermoso-opt-1024x683.jpg");
+  background-size: initial;
+  background-repeat: no-repeat;
+border: solid 3px #268f06;
+font-size: 2rem;
+font-weight: 600;
+}
+
+
+
 .morton{
  background-image: url("https://besthqwallpapers.com/Uploads/2-3-2020/123418/thumb2-white-wooden-planks-macro-white-wooden-texture-wood-planks-wooden-backgrounds.jpg");
 }
@@ -97,7 +117,7 @@ border: solid 3px #18A59D;
 
   display: flex;
   margin-top: 0;
-  background-image: url("https://i.pinimg.com/originals/d6/b3/55/d6b355ff908d50997ba679550c597944.jpg");
+  background-color: rgba(0, 0, 0, 0.473);
   outline: 2px solid #a12d2d;
   margin-top: 1.5rem;
   min-height: 40px;
