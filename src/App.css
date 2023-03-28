@@ -3,7 +3,7 @@
 
 .App {
   text-align: center;
-
+  
 }
 
 .App-logo {
@@ -18,15 +18,14 @@
 }
 
 .App-header {
+  height: 86.5vh;
   background-color: rgba(0, 0, 0, 0.473);
-  min-height: 75vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   color: white;
   border-top: solid 2px #a12d2d;
   border-bottom: solid 2px #a12d2d;
-  display: flex;
   border-radius: 20px;
   border-radius: 6px;
 }
@@ -51,6 +50,9 @@ background-color: rgba(0, 0, 0, 0.473);
   font-family: 'Noto Serif Oriya', serif;
   padding-top: .5rem;
 }
+.title1{
+  margin-bottom: .5rem;
+}
 .buttons{
   width: 100%;
   height: 100px;
@@ -63,7 +65,7 @@ background-color: rgba(0, 0, 0, 0.473);
 }
 .shanti{
   border: solid orangered 3px;
-  background-image: url("./assets/interiorEditado.jpg");
+  background-image: url("./assets/interiorEditado.webp");
   background-size: cover;
   color: black;
   font-size: 2rem;
@@ -91,11 +93,50 @@ font-weight: 600;
   background-image: url("https://www.lugaresparavisitar.com.ar/wp-content/uploads/2018/03/Monte-Hermoso-opt-1024x683.jpg");
   background-size: initial;
   background-repeat: no-repeat;
+  background-position: center;
 border: solid 3px #268f06;
 font-size: 2rem;
 font-weight: 600;
 }
+.ypf{
+  background: linear-gradient(-45deg, #025da9, #025ca7, #004D8B);
+  background-size: 400% 400%;
+  animation: gradient-bg 20s ease infinite;
+  border: groove 4px #FFD61B;
+}
+.subName{
+  margin: 0;
+}
 
+.DT{
+  background-image: url("./assets/backgroundNav.webp");
+  border: groove rgb(165, 87, 42) 4px;
+}
+.dtmImg{
+  width: 90px;
+}
+.baires{
+  background: linear-gradient(-45deg, #0B3446, #025ca7, #0B3446);
+  animation: gradient-bg 20s ease infinite;
+  border: groove rgb(194, 194, 194) 4px;
+}
+.logoTitle{
+  color: white;
+  font-size: 30px;
+  font-weight: 800;
+  text-shadow:#000000 5px 5px 10px;
+}
+@keyframes gradient-bg {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 
 .morton{
@@ -118,7 +159,7 @@ font-weight: 600;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  padding: 1rem 0;
 }
 /*========================== footer ======================*/
 .Mfooty{
@@ -127,7 +168,7 @@ font-weight: 600;
   margin-top: 0;
   background-color: rgba(0, 0, 0, 0.473);
   outline: 2px solid #a12d2d;
-  margin-top: 1.5rem;
+  margin-top: .5rem;
   min-height: 40px;
 
   } 
@@ -166,4 +207,12 @@ font-weight: 600;
 .Mlinks{
   padding-bottom: 0;
   
+}
+
+@media (max-width: 600px) {
+.myLinkss{
+  flex-direction: column;
+}
+.App-header {
+  height: 75vh;}
 }
