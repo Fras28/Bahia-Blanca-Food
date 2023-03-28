@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className="navi">
-        <h1 className="title1"> Morton C.D.I 2023</h1>
+        <h1 className="title1"> Morton Carta Digital Interactiva</h1>
       </div>
       <header className="App-header">
         <div className="rowsCard">
