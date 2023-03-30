@@ -4,12 +4,12 @@ import donT from "./assets/LogoDTM.png"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App slide-in-bck-center">
       <div className="navi">
         <h1 className="title1"> Morton Carta Digital Interactiva</h1>
       </div>
       <header className="App-header">
-        <div className="rowsCard">
+        <div className="rowsCard ">
         <a  className="local" href="https://fullvercarta.vercel.app/">
           <button className="buttons morton">
           <svg width="80" height="80" viewBox="0 0 251 213" fill="none" xmlns="http://www.w3.org/2000/svg">
