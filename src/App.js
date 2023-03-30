@@ -168,7 +168,7 @@ function App() {
 </clipPath>
 </defs>
 </svg>
-<p className="subName">- aertoVia -</p>
+<p className="subName">- aeroVia -</p>
            
           </button>
            </a>
