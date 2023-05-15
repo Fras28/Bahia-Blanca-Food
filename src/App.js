@@ -535,7 +535,7 @@ function App() {
           <a className="local" href="https://pelicanito-oeste.vercel.app/">
             <button className="buttons pelicanitoO">
               <svg
-                height="30"
+                height="20"
                 viewBox="0 0 527 614"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -547,7 +547,7 @@ function App() {
               </svg>
               <svg
                 className="LogoShanti animate__animated animate__zoomIn animate__fast"
-                height="35"
+                height="20"
                 viewBox="0 0 2937 331"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
