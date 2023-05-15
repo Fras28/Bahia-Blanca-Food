@@ -58,6 +58,27 @@ background-color: rgba(0, 0, 0, 0.473);
   margin-bottom: .5rem;
   text-shadow: black 1px 0 10px;
 }
+.sushiRoll{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  background-image: url("./assets/flagJapan.jpg");
+  filter: grayscale(30%);
+  animation: gradient-bg 20s ease infinite;
+  box-shadow: 0px 0px 8px #0060FF;
+}
+@keyframes gradient-bg {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 .shanti{
   border: solid orangered 3px;
@@ -70,12 +91,15 @@ background-color: rgba(0, 0, 0, 0.473);
   background-color: rgba(255, 255, 255, 0.842);
 }
 .roxy{
-  background-image: url("https://media.99images.com/photos/wallpapers/creative-graphics/black-wood%20android-iphone-desktop-hd-backgrounds-wallpapers-1080p-4k-ih0ou.jpg");
+ background-color: #202020;
   background-size: cover;
 border: solid 3px #000000;
 font-size: 2rem;
 font-weight: 600;
 } 
+.hudson{
+  background-color: #a07c65cb;
+}
 
 .pelicanitoO{
   background-image: url(https://i.pinimg.com/736x/4b/e5/47/4be547115198197c57c64cae2d3ab073.jpg);
